@@ -6,8 +6,8 @@
 <script type="text/javascript" src="http://feather.aviary.com/js/feather.js"></script>
 <script type='text/javascript'>
 var featherEditor = new Aviary.Feather({
-       apiKey: 'R5ctaJYc7kSNYxrLjHSREg',
-       apiVersion: 2,
+       apiKey: '39e181885b8486f2',
+       apiVersion: 3,
        tools: 'all',
        appendTo: '',
        onSave: function(imageID, newURL) {
@@ -36,7 +36,7 @@ function uploadToMaze(){
         <div class="span10 offset1">
         <div class="row-fluid">
           <div class="span3">
-            <img src="./img/logo.png" width="40%" height="40%">
+            <img src="./img/logo.png" class="imgLiquidFill imgLiquid">
           </div>
           <div class="span3 offset6">
             <p class="text-right"<a href="index.php"><b>PLAY</b></a> <a href="about.php">ABOUT</a></p>
@@ -52,7 +52,7 @@ function uploadToMaze(){
             <div class="row-fluid">
               <div class="span10 offset1">
               <center><img type='image' src='http://images.aviary.com/images/edit-photo.png' value='Edit photo' onclick="return launchEditor('image', '<?php echo $_GET['mazeImage'];?>');" style="display:none">
-              <img id='image' src='<?php echo $_GET['mazeImage'];?>' style="border-radius:0px;max-height:600px;max-width:400px;"/>
+              <img id='image' class="imgLiquidFill imgLiquid" src='<?php echo $_GET['mazeImage'];?>' style="border-radius:0px;"/>
               </center>
                </div>
               </div>

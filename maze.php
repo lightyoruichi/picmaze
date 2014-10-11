@@ -162,7 +162,7 @@
         <div class="span10 offset1">
         <div class="row-fluid">
           <div class="span3">
-            <img src="./img/logo.png" width="40%" height="40%">
+            <img src="./img/logo.png" data-scale="best-fit-down">
           </div>
           <div class="span3 offset6">
             
@@ -194,10 +194,10 @@
       </div>-->
       <canvas id="maze" width="600" height="400"></canvas>
       <?php if (isset($_GET['mazeImage'])): ?>
-        <img id="user-image" src="<?php echo $_GET['mazeImage']; ?>" />
+        <img id="user-image" src="<?php echo $_GET['mazeImage']; ?>" data-scale="best-fit-down" />
       <?php else: ?>
         <!-- Logo here! -->
-        <img id="user-image" src="./img/logo.png" />
+        <img id="user-image" src="./img/logo.png" class="imgLiquidFill imgLiquid"/>
       <?php endif; ?>
     </div>
   </div>

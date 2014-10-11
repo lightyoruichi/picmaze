@@ -26,5 +26,22 @@
 	<script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script>
+	$(function() {
+    
+    $(".imgLiquidFill").imgLiquid({
+        fill: true,
+        horizontalAlign: "center",
+        verticalAlign: "top"
+    });
+    
+    $(".imgLiquidNoFill").imgLiquid({
+        fill: false,
+        horizontalAlign: "center",
+        verticalAlign: "50%"
+    });
+    
+});
+	</script>
   </body>
 </html>
