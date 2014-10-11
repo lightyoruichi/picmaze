@@ -1,0 +1,394 @@
+body {
+	padding: 0px;
+}
+
+body p, h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 480px) { 
+	.features h1, p, h2, img{
+		padding: 0px 2em 0px 2em;
+	}
+
+	.signup h1 {
+		padding: 0em 2em 0em 2em;
+	}	
+}
+
+iframe {
+	border:none !important;
+}
+
+.menu {
+	margin-top: 0px;
+	background-color:white;
+	height:120px;
+}
+
+.menu p {
+	margin-top: 50px;
+	word-spacing:30px;
+}
+
+.menu img {
+	margin-top: 15px;
+}
+
+.menu a {
+	color:black;
+}
+
+.menu a:hover {
+	color:#777;
+	text-decoration:none;
+}
+
+.slider {
+	position:relative;
+	height:400px;
+	/* Newly added for slider*/
+	background: url('../img/background.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+.slider h1 {
+	color:black;
+	font-weight:100;
+	padding-top:30px; 
+}
+
+.slider .row-fluid,
+.slider .span12 {
+    height: 100%
+}
+
+.upload {
+	background-color:gray;
+	position:relative;
+	height:100%;
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+.upload p {
+	color:white;
+}
+
+.upload h1 {
+	font-weight:100;
+	margin-bottom:40px;
+	color:white;
+}
+
+.maze {
+	background-color:gray;
+	position:relative;
+	height:100%;
+	padding: 30px 0px 30px 0px;
+}
+
+.upload img {
+	margin-bottom:20px;
+	border-radius:150px;
+}
+
+.upload img:hover {
+	opacity:0.6;
+}
+
+.features h1 {
+	text-align: center;
+	font-weight:100;
+}
+
+.features h2 {
+	font-weight:400;
+}
+
+#topic {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#features1 {
+	background-color:#e7e7e7;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+#features2 img {
+	margin: 0px 10px 10px 0px;
+}
+
+#features2 {
+	background-color:white;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+#features2 h2 {
+	font-weight:100;
+}
+
+#features2 span {
+	font-weight:400;
+}
+
+
+#member {
+	background-color:#e7e7e7;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+#members img {
+	margin-bottom:10px;
+}
+
+.signup {
+	padding: 100px 0px 100px 0px;
+}
+
+.signup h1 {
+	font-weight:100;
+}
+
+.signup a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+.footer {
+	background-color: #e7e7e7;
+	padding:25px 0px 5px 0px;
+}
+
+.footer p {
+	color:black;
+}
+
+.button-link {
+    padding: 20px 30px;
+    background: #1984e8;
+    color: #FFF;
+    border:0px;
+}
+
+.button-link:hover {
+	color: #fff;
+	background:#5c8bc4;
+}
+
+.title {
+	background-color:#e7e7e7;
+	padding: 15px 0px 15px 0px;
+}
+
+.title h1 {
+	font-weight:100;
+}
+
+.awesome-button {
+	color: black;
+	border: #1984e8;
+	border-radius:10px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 20px 30px;
+	background: white;
+}
+
+.awesome-button:hover {
+	background: #1984e8;
+	border: #1984e8;
+	border-radius:9px;
+	border-style: solid;
+	border-width: 2px;
+	color:white;
+}
+
+
+.awesome-button2 {
+	color: white;
+	border: white;
+	border-radius:10px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 20px 30px;
+	background:none;
+	margin-right:10px;
+}
+
+.awesome-button2:hover {
+	background: white;
+	border: white;
+	border-radius:9px;
+	border-style: solid;
+	border-width: 2px;
+	color:black;
+	text-decoration:none;
+}
+
+.awesome-button3 {
+	margin-top:-10px;
+	color: black;
+	border: black;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px 7px;
+	background:none;
+	margin-right:10px;
+}
+
+.awesome-button3:hover {
+	background: black;
+	border: black;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 2px;
+	color:white;
+	text-decoration:none;
+}
+
+.awesome-button4 {
+	color: black;
+	border: black;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px 7px;
+	background:none;
+	margin-right:10px;
+}
+
+.awesome-button4:hover {
+	background: black;
+	border: black;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 2px;
+	color:white;
+	text-decoration:none;
+}
+
+
+.awesome-field {
+	color: black !important;
+	border: black !important;
+	border-radius:5px;
+	border-style: solid !important;
+	border-width: 2px !important;
+	padding: 5px 7px;
+	background:none !important;
+	margin-right:10px;
+}
+
+.awesome-field:hover {
+	background: white !important;
+	border: black;
+	border-radius:5px;
+	border-style: solid;
+	border-width: 2px;
+	color:black !important;
+	text-decoration:none;
+	box-shadow:none !important;
+}
+
+.awesome-field:focus {
+	border:black !important;
+	border-width: 2px !important;
+	box-shadow:none !important;
+	border-style: solid !important;
+	color:white !important;
+	background: black !important;
+}
+
+#titleabout {
+	background-color: #e7e7e7;
+	padding: 15px 0px 15px 0px;
+}
+
+.fivepx div {
+	display:inline;
+}
+
+.fivepx img {
+	border-radius:0px !important;
+	margin-right:10px !important;
+}
+
+.api {
+	margin: 30px 0px 30px 0px;
+}
+
+#mazeresize {
+    display:block;
+    width:100%;
+    padding:0px;
+    height:400px;
+    background:gray;
+} 
+
+.options {
+	margin: 30px 0px 30px 0px;
+}
+
+.playbutton {
+font-family: sans-serif;
+font-size: 30px;
+margin-top: 10px;
+
+}
+
+.maze .row {
+  text-align: center;
+}
+
+.maze-wrap {
+  position: relative;
+  display: inline-block;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  margin-top: -47px;
+  height: 94px;
+  width: 100%;
+  text-align: center;
+  z-index: 200;
+}
+
+
+
+#maze {
+  position: relative;
+  z-index: 100;
+  display: none;
+}
+
+#user-image {
+max-width: 600px;
+max-height: 400px;
+}
+
+.buttons .awesome-button {
+  display: inline-block;
+  margin-left: 40px;  
+}
+.buttons .awesome-button:first-child {
+  margin-left: 0;
+}
+
+ 

@@ -56,10 +56,10 @@
         <div class="span10 offset1">
         <div class="row-fluid">
           <div class="span3">
-            <img src="img/logo.png" width="50%" height="50%">
+            <img src="img/logo.png" width="40%" height="40%">
           </div>
           <div class="span3 offset6">
-            <p class="text-right"><a href="index.php">PLAY</a> <a href="about.php">ABOUT</a></p>
+            <p class="text-right"<a href="index.php"><b>PLAY</b></a> <a href="about.php">ABOUT</a></p>
           </div>
         </div>
         </div><!--end span10 offset1!-->
@@ -75,17 +75,17 @@
 
                   <div class="span4">
                     <center><img src="img/image.png"></center>
-                    <p class="text-center">1. Pick image you want</p>
+                    <p class="text-center">1. Choose an image </p>
                   </div>
 
                   <div class="span4">
                     <center><img src="img/photo.png"></center>
-                    <p class="text-center">2. Edit to what you want</p>
+                    <p class="text-center">2. Edit it as you want</p>
                   </div>
 
                   <div class="span4">
                     <center><img src="img/photo2.png" style="border-radius:0px"></center>
-                    <p class="text-center">3. Play!</p>
+                    <p class="text-center">3. Play, alone or with your friend</p>
                   </div>
 
                 </div>
@@ -96,8 +96,9 @@
                   </div>
                   <!-- Button to trigger modal -->
                   <center>                   
-                  	<input type="filepicker" class="awesome-button2" data-fp-apikey="" data-fp-mimetypes="image/*" data-fp-container="modal" data-fp-services="BOX,COMPUTER,DROPBOX,FACEBOOK,GITHUB,GOOGLE_DRIVE,FLICKR,EVERNOTE,GMAIL,INSTAGRAM,IMAGE_SEARCH,URL,WEBCAM,PICASA" onchange="linkToMaze(event.fpfile.url)">
+                  	<input type="filepicker" class="awesome-button2" data-fp-apikey="AfjJ1Xe5SbSYHtAwXrEgYz" data-fp-mimetypes="image/*" data-fp-container="modal" data-fp-services="BOX,COMPUTER,DROPBOX,FACEBOOK,GOOGLE_DRIVE,FLICKR,EVERNOTE,GMAIL,INSTAGRAM,IMAGE_SEARCH,URL,WEBCAM,PICASA" onchange="linkToMaze(event.fpfile.url)">
                     <a href="#myModal" role="button" data-toggle="modal" class="awesome-button2">Public Gallery</a>
+                  	<input type="filepicker" class="awesome-button2" data-fp-apikey="AfjJ1Xe5SbSYHtAwXrEgYz" data-fp-mimetypes="image/*" data-fp-container="modal" data-fp-services="IMAGE_SEARCH" onchange="linkToMaze(event.fpfile.url)">
 
                   </center>
                    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
